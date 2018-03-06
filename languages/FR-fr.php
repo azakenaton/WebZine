@@ -1,1 +1,2 @@
 <?php
+define('TITRE',"Webzine");
