@@ -1,2 +1,2 @@
 <?php
-define('TITRE',"Webzine");
+define('TITRE',"Sporifique");
