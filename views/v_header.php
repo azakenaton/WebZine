@@ -2,7 +2,7 @@
 <html>
   <head>
   	<title><?= TITRE ?></title>
-  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF -8" />
 	<meta name="Language" content="<?= LANG ?>"/>
 	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0"/>
 
@@ -11,6 +11,7 @@
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="<?= PATH_SCRIPTS ?>materialize.min.js"></script>
+      <script type="text/javascript" src="<?= PATH_SCRIPTS ?>MonJS.js"></script>
 
 
   </head>
