@@ -19,7 +19,7 @@
   
   <nav class=" teal accent-3">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo"><?= TITRE ?></a>
+      <a href="index.php?page=accueil" class="brand-logo"><?= TITRE ?></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down ">
         <li><a href="index.php?page=accueil"><?= NAV_ACCUEIL ?></a></li>
         <li><a href="index.php?page=foot"><?= NAV_FOOT?></a></li>
