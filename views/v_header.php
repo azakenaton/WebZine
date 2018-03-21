@@ -2,9 +2,9 @@
 <html>
   <head>
   	<title><?= TITRE ?></title>
-  	<meta http-equiv="Content-Type" content="text/html; charset=UTF -8" />
+  	<meta content="text/html; charset=UTF-8" />
 	<meta name="Language" content="<?= LANG ?>"/>
-	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; user-scalable=0"/>
+
 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="<?= PATH_CSS ?>materialize.min.css" rel="stylesheet">
@@ -17,13 +17,14 @@
   </head>
 
   
-  <nav>
+  <nav class=" teal accent-3">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+      <a href="#" class="brand-logo"><?= TITRE ?></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down ">
+        <li><a href="index.php?page=accueil"><?= NAV_ACCUEIL ?></a></li>
+        <li><a href="index.php?page=foot"><?= NAV_FOOT?></a></li>
+        <li><a href="index.php?page=basket"><?= NAV_BASKET?></a></li>
+          <li><a href="index.php?page=esport"><?= NAV_ESPORT?></a></li>
       </ul>
     </div>
   </nav>

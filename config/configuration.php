@@ -23,7 +23,7 @@ define('PATH_TEXTES','./languages/');
 
 //sous dossiers
 define('PATH_CSS', PATH_ASSETS.'css/');
-define('PATH_IMAGES', PATH_ASSETS.'image/');
+define('PATH_IMAGES', PATH_ASSETS.'img/');
 define('PATH_SCRIPTS', PATH_ASSETS.'js/');
 //define("PATH_GALERIE",'galerie/');
 //define('PATH_LOG','log/');
